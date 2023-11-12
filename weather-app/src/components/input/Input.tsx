@@ -1,8 +1,10 @@
 import React from "react";
+import "./input.css";
+
 
 function InputComponent(){
     return (    
-    <div>
+    <div className="inputdiv">
         <input></input>
     </div>)
 }
